@@ -40,7 +40,7 @@ REM %A% -d %GPUccminer% -r 0 -a %A04% -o stratum+tcp://%A04%.%POOL%:3733 -u %ADD
 %A% -d %GPUccminer% -r 0 -a %A05% -o stratum+tcp://%A05%.%POOL%:4533 -u %ADDY% -p %PASS% -i 24 
 %B% -d %GPUccminer% -r 0 -a %A06% -o stratum+tcp://%A06%.%POOL%:4233 -u %ADDY% -p %PASS%
 %B% -d %GPUccminer% -r 0 -a %A07% -o stratum+tcp://%A07%.%POOL%:5744 -u %ADDY% -p %PASS% 
-%B% -d %GPUccminer% -r 0 -a %A08% -o stratum+tcp://%A08%.%POOL%:5743 -u %ADDY% -p %PASS% 
+%A% -d %GPUccminer% -r 0 -a %A08% -o stratum+tcp://%A08%.%POOL%:5743 -u %ADDY% -p %PASS% 
 %A% -d %GPUccminer% -r 0 -a %A09% -o stratum+tcp://%A09%.%POOL%:3573 -u %ADDY% -p %PASS% -i 21
 %B% -d %GPUccminer% -r 0 -a %A10% -o stratum+tcp://%A10%.%POOL%:5333 -u %ADDY% -p %PASS% 
 %A% -d %GPUccminer% -r 0 -a %A11% -o stratum+tcp://%A11%.%POOL%:5766 -u %ADDY% -p %PASS% 
