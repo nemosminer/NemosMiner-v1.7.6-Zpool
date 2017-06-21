@@ -30,7 +30,7 @@ SET A19=timetravel
 SET A20=veltor
 SET A21=bitcore
 SET A22=hmq1725
-SET PASS=c=BTC,equihash=0.68,lyra2z=2.53,myr-gr=115,lyra2v2=66,neoscrypt=1.35,decred=4.3,blakecoin=7.2,c11=27.9,groestl=58,blake2s=6.6,x17=18.25,nist5=78.2,skein=895,sib=20.5,x11evo=12.5,lbry=468,timetravel=36,veltor=54.9,bitcore=25.1,hmq1725=7.2,stats
+SET PASS=c=BTC,equihash=0.68,lyra2z=2.53,myr-gr=115,lyra2v2=66,neoscrypt=1.35,decred=4.3,blakecoin=7.3,c11=27.9,groestl=58,blake2s=6.6,x17=18.25,nist5=78.2,skein=895,sib=20.5,x11evo=12.5,lbry=468,timetravel=36,veltor=54.9,bitcore=25.1,hmq1725=7.2,stats
 :start
 ECHO Starting NemosMiner-v1.7.6 if this helped you please donate #Nemo....
 %C% --cuda_devices %GPUequihash% --server %A01%.%POOL% --port 2142 --fee 0 --eexit 2 --user %ADDY% --pass %PASS%
